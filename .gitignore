@@ -11,3 +11,6 @@ wheels/
 
 # Secrets — never commit
 .env
+
+# 运行产物
+stage1/result.txt
