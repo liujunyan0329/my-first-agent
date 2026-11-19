@@ -14,3 +14,4 @@ wheels/
 
 # 运行产物
 stage1/result.txt
+stage2/workspace/*.txt

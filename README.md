@@ -1,11 +1,12 @@
 # my-first-agent
 
-AI Agent 学习项目的 uv 工程根目录。`.venv`、`.env`、`pyproject.toml` 由两个阶段共用。
+AI Agent 学习项目的 uv 工程根目录。`.venv`、`.env`、`pyproject.toml` 由各阶段共用。
 
 ```
 my-first-agent\
 ├── stage0\        ← 阶段 0：API 调用、多轮对话、流式、async、上下文边界
 ├── stage1\        ← 阶段 1：工具调用、核心循环、300 行 agent.py
+├── stage2\        ← 阶段 2：注册式工具、MCP、代码沙箱、prompt injection
 ├── src\           ← uv 初始化时生成的包（暂未使用）
 ├── .env           ← API key（不要提交）
 ├── .venv\         ← 共享虚拟环境
@@ -18,6 +19,7 @@ my-first-agent\
 |---|---|---|---|
 | 阶段 0 | [`stage0/`](stage0/) | API 调用、多轮对话、流式、async、上下文边界 | 课程资料《阶段0-动手任务教程》 |
 | 阶段 1 | [`stage1/`](stage1/) | 工具调用、核心循环、300 行 `agent.py` | 课程资料《阶段1-动手任务教程》 |
+| 阶段 2 | [`stage2/`](stage2/) | 注册式工具、MCP、代码沙箱、prompt injection | 课程资料《阶段2-动手任务教程》 |
 
 ## 运行方式
 
