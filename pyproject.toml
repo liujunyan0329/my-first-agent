@@ -8,9 +8,12 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
+    "fastembed",
     "mcp>=2.3.0",
+    "numpy",
     "openai>=3.28.0",
     "pydantic>=2.14.0",
+    "pypdf",
     "python-dotenv>=1.2.4",
 ]
 
@@ -21,7 +24,15 @@ my-first-agent = "my_first_agent:main"
 requires = ["uv_build>=0.13.0,<0.14.0"]
 build-backend = "uv_build"
 
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
+
 [dependency-groups]
 dev = [
     "pyright>=1.1.414",
 ]
+
+[tool.pyright]
+# stage3 通过 sys.path 复用 stage2/registry.py；告诉 pyright 去哪里找
+extraPaths = ["stage2", "stage3"]

@@ -15,3 +15,7 @@ wheels/
 # 运行产物
 stage1/result.txt
 stage2/workspace/*.txt
+
+# 阶段 3：索引、跨会话记忆、任务状态都是本机运行产物
+stage3/index/
+stage3/runtime/
