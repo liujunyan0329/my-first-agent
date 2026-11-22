@@ -19,3 +19,7 @@ stage2/workspace/*.txt
 # 阶段 3：索引、跨会话记忆、任务状态都是本机运行产物
 stage3/index/
 stage3/runtime/
+
+# 阶段 4：检查点、实验 JSON、agent 写入的文件
+stage4/runtime/
+stage4/workspace/
