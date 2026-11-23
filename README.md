@@ -9,6 +9,7 @@ my-first-agent\
 ├── stage2\        ← 阶段 2：注册式工具、MCP、代码沙箱、prompt injection
 ├── stage3\        ← 阶段 3：上下文管理、task state、RAG、跨会话记忆
 ├── stage4\        ← 阶段 4：LangGraph、并行工具、检查点、人工审批、多智能体
+├── stage5\        ← 阶段 5：trace、30 条 eval、RAG 消融、prompt caching、模型路由
 ├── src\           ← uv 初始化时生成的包（暂未使用）
 ├── .env           ← API key（不要提交）
 ├── .venv\         ← 共享虚拟环境
@@ -24,6 +25,7 @@ my-first-agent\
 | 阶段 2 | [`stage2/`](stage2/) | 注册式工具、MCP、代码沙箱、prompt injection | 课程资料《阶段2-动手任务教程》 |
 | 阶段 3 | [`stage3/`](stage3/) | 上下文管理、task state、RAG、跨会话记忆 | 课程资料《阶段3-动手任务教程》 |
 | 阶段 4 | [`stage4/`](stage4/) | LangGraph、并行工具、检查点、人工审批、多智能体 | 课程资料《阶段4-动手任务教程》 |
+| 阶段 5 | [`stage5/`](stage5/) | 可观测性、30 条 eval、RAG 消融、prompt caching、模型路由、成本报告 | 课程资料《阶段5-动手任务教程》 |
 
 ## 运行方式
 

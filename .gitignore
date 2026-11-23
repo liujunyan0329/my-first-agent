@@ -23,3 +23,7 @@ stage3/runtime/
 # 阶段 4：检查点、实验 JSON、agent 写入的文件
 stage4/runtime/
 stage4/workspace/
+
+# 阶段 5：eval 结果、trace、索引都是本机运行产物
+stage5/runtime/
+stage5/index_*/

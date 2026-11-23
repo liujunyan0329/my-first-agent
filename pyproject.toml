@@ -36,5 +36,5 @@ dev = [
 ]
 
 [tool.pyright]
-# stage3/stage4 通过 sys.path 复用 stage2/registry.py；告诉 pyright 去哪里找
-extraPaths = ["stage2", "stage3", "stage4"]
+# stage3/4/5 通过 sys.path 复用 stage2/registry.py 与 stage3 的 RAG；告诉 pyright 去哪里找
+extraPaths = ["stage2", "stage3", "stage4", "stage5"]
